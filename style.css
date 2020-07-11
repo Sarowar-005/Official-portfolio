@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+        width: 100%;
+        height: 100%;
+    }
+
+/*Navbar*/
+.navbar{
+         background-color: black;
+         color: white;
+         border-bottom: 1px solid rgba(255, 255, 255, 0.432);
+}
+.navbar-nav a{
+            color: white;}
+.navbar-nav a:hover{
+            color: #f90162}
+
+
+/*Home*/
+#home{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.home-img{
+    width: 100%;
+    height: 100%;
+}
+.home-content{
+    position: relative;
+    width: 50%;
+    top:-60%;
+    left:50%;
+}
+
+.home-content h1{
+    font-family: 'Abril Fatface';
+    letter-spacing: 5px;
+}
+.home-content p{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+.home-content a{
+    background-color: #f90162;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+.home-content a:hover{
+    background-color: #dd0256;
+    color: white;
+}
+
+
+
+
+
+/*About*/
+
+#about{
+    background-color: rgb(22, 22, 22);
+    padding: 70px 0px;
+    color: white;
+}
+.about-content{
+
+}
+.about-content h1{
+\    border-bottom: 2px solid white;
+    margin-bottom: 50px;
+}
+.about-content p{
+    font-size: 17px;
+    font-family:serif;
+    text-align: justify;
+}
+.about-btn{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.about-btn a{
+    background-color: #f90162;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border:none;
+    border-radius: 5px;
+    margin-top: 50px;
+    text-decoration: none;
+    
+}
+.about-btn a:hover{
+    background-color: #d30554;
+    text-decoration: underline;
+}
+
+
+
+/*service*/
+
+#service{
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+#service h1{
+    margin-bottom: 100px;
+    text-decoration: underline;
+}
+.service-div{
+    padding: 50px 20px;
+    transition: 1s;
+    margin-bottom: 20px;
+    border:1px solid #a3024065;
+}
+.service-div i{
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    color: #dd0256;
+    margin-bottom: 30px;
+}
+.service-div a{
+    color: #f90162;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.service-div:hover{
+    background-color: #f90162;
+    color: white;
+    cursor: pointer;
+}
+.service-div:hover i{
+    color: white;
+}
+.service-div:hover a{
+    color: white;
+}
+
+/*Dream Section*/
+#dream{
+    padding: 70px;
+    background-color: rgb(219, 217, 217);
+}
+#dream h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 80px;
+    text-decoration: underline;
+}
+.card {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 3px 4px 3px #919191;
+    border: none;
+    transition: 1s;
+}
+.card:hover{
+    transform: scaleY(1.05);
+    cursor: pointer;
+}
+.card-content h4{
+    font-size: 18px;
+}
+
+
+/*Hobbies Section */
+#hobbies{
+    padding:40px 0px;
+    
+}
+#hobbies h1{
+    font-size: 50px;
+    font-weight: 500px;
+    padding-bottom: 40px;
+    text-decoration: underline;
+}
+.hobbie-content{
+    
+}
+.hobbie-content h3{
+    font-size: 24px;
+    font-weight: 600;
+} 
+.hobbie-content h6{
+  text-transform: uppercase; 
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.hobbie-content p{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.badminton ,.travel{
+    padding:20px 0px;
+}
+
+
+
+
+
+/*Contact section */
+#contact{
+    background-color: rgb(61, 61, 61);
+    padding:40px;
+}
+#contact h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+.contact{
+    width: 60%;
+    margin: auto;
+}
+.contact input, .contact textarea{
+    background-color: black;
+    color: white;
+    padding: 25px 10px;
+    margin-bottom: 30px;
+    border: none;
+}
+.contact input:focus{
+    background-color: black;
+    color: white;
+}
+.contact textarea:focus{
+    background-color: black;
+    color: white;
+}
+.contact .btn{
+    background-color: #f90162;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    display: block;
+    margin: auto;
+}
+
+
+/*Footer*/
+#footer{
+    background-color: rgb(32, 32, 32);
+}
+.footer-logo{
+    width: 250px;
+}
+
+#footer .container{
+    padding: 50px 0px 0px 0px;
+}
+.social-icon i{
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.social-icon i:hover{
+    background-color: #dd0256;
+    cursor: pointer;
+    border: none;
+}
+
+.footer{
+    border-top: 1px solid white;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+@media screen and (max-width:768px){
+    .footer-logo{
+        margin-left: 150px;
+    }
+}
